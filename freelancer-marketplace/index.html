@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Freelancer Marketplace</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo">FreeLanceHub</h1>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#freelancers">Freelancers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">&#9776;</div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <h2>Hire Top Freelancers Easily</h2>
+      <p>Browse talented freelancers in web, design, writing, and more.</p>
+      <a href="#freelancers" class="btn">Browse Freelancers</a>
+    </div>
+  </section>
+  <!-- Freelancer Section -->
+<section class="freelancers" id="freelancers">
+  <div class="container">
+    <h2>Featured Freelancers</h2>
+    <div class="freelancer-grid">
+      
+      <div class="freelancer-card">
+        <h3>Sarah Malik</h3>
+        <p>Web Developer</p>
+        <button class="hire-btn" data-name="Sarah Malik">Hire Me</button>
+      </div>
+
+      <div class="freelancer-card">
+        <h3>Ali Khan</h3>
+        <p>Graphic Designer</p>
+        <button class="hire-btn" data-name="Ali Khan">Hire Me</button>
+      </div>
+
+      <div class="freelancer-card">
+        <h3>Zara Ahmed</h3>
+        <p>Content Writer</p>
+        <button class="hire-btn" data-name="Zara Ahmed">Hire Me</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Modal -->
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="close-btn">&times;</span>
+    <h3 id="modal-title">Hire Freelancer</h3>
+    <p>Thank you for choosing to hire! We'll connect you soon.</p>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
